@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  background-color:aliceblue;
+  color: black;
+}
+ 
+h1{
+  color: blueviolet;
+}
+.high{
+  text-align: right;
+  margin-right: 50px;
+}
+
+.bttn{
+  height: 225px;
+  width: 225px;
+  border: 3px solid black; 
+}
+
+.bttn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.green{
+  background-color: green;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.yellow{
+  background-color: yellow;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 0px;
+}
+.red{
+  background-color: red;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.blue{
+  background-color: rgba(0, 0, 255, 0.559);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 100%;
+}
+
+.userflashg{
+  background-color: rgb(58, 173, 58);
+}
+.userflashy{
+  background-color: rgb(252, 252, 180);
+}
+.userflashr{
+  background-color: rgb(244, 116, 116);
+}
+.userflashb{
+  background-color:blue;
+}
+
+.body{
+  background-color: purple;
+}
